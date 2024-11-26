@@ -1,0 +1,22 @@
+.errorlist {
+    padding-right: 0 !important;
+
+}
+
+.errorlist li {
+    color: red;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.one-line-text {
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 300px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
